@@ -1,98 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shop | Get Set Wear</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop – Get Set Wear</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
-<header>
-    <div class="logo">GET SET WEAR</div>
-    
-<nav>
-    <a href="index.html">Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="about.html">About</a>
-    <a href="cart.html">Cart</a>
-</nav>
+  <header>
+    <h1>Shop Get Set Wear</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
 
-</header>
+  <section class="products">
 
-    <section class="section">
-        <h2>Shop All</h2>
-        <div class="product-grid">
+    <div class="product">
+      <img src="images/mens-chinos.jpg" alt="Men’s Chinos">
+      <h3>Men’s Chinos</h3>
+      <p class="price">Rs. 599</p>
+      <button>Add to Cart</button>
+    </div>
 
-            <div class="product-card">
-                <img src="https://source.unsplash.com/600x800/?mens,denim,jacket,vintage" alt="Vintage Denim Jacket (Men)">
-                <div class="info">
-                    <h3>Vintage Denim Jacket (Men)</h3>
-                    <p class="price">₹899</p>
-                    <button class="btn" onclick="addToCart('mens-denim-jacket','Vintage Denim Jacket (Men)','₹899','https://source.unsplash.com/600x800/?mens,denim,jacket,vintage')">Add to Cart</button>
-                    <a class="btn" href="mens-denim-jacket.html" style="margin-left:5px;">Details</a>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <img src="https://source.unsplash.com/600x800/?mens,graphic,tshirt,vintage" alt="Retro Graphic Tee (Men)">
-                <div class="info">
-                    <h3>Retro Graphic Tee (Men)</h3>
-                    <p class="price">₹499</p>
-                    <button class="btn" onclick="addToCart('mens-graphic-tee','Retro Graphic Tee (Men)','₹499','https://source.unsplash.com/600x800/?mens,graphic,tshirt,vintage')">Add to Cart</button>
-                    <a class="btn" href="mens-graphic-tee.html" style="margin-left:5px;">Details</a>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <img src="https://source.unsplash.com/600x800/?mens,chinos,vintage" alt="Classic Chinos (Men)">
-                <div class="info">
-                    <h3>Classic Chinos (Men)</h3>
-                    <p class="price">₹699</p>
-                    <button class="btn" onclick="addToCart('mens-chinos','Classic Chinos (Men)','₹699','https://source.unsplash.com/600x800/?mens,chinos,vintage')">Add to Cart</button>
-                    <a class="btn" href="mens-chinos.html" style="margin-left:5px;">Details</a>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <img src="https://source.unsplash.com/600x800/?women,floral,dress,vintage" alt="Floral Summer Dress (Women)">
-                <div class="info">
-                    <h3>Floral Summer Dress (Women)</h3>
-                    <p class="price">₹799</p>
-                    <button class="btn" onclick="addToCart('womens-floral-dress','Floral Summer Dress (Women)','₹799','https://source.unsplash.com/600x800/?women,floral,dress,vintage')">Add to Cart</button>
-                    <a class="btn" href="womens-floral-dress.html" style="margin-left:5px;">Details</a>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <img src="https://source.unsplash.com/600x800/?women,denim,jacket,vintage" alt="Oversized Denim Jacket (Women)">
-                <div class="info">
-                    <h3>Oversized Denim Jacket (Women)</h3>
-                    <p class="price">₹899</p>
-                    <button class="btn" onclick="addToCart('womens-denim-jacket','Oversized Denim Jacket (Women)','₹899','https://source.unsplash.com/600x800/?women,denim,jacket,vintage')">Add to Cart</button>
-                    <a class="btn" href="womens-denim-jacket.html" style="margin-left:5px;">Details</a>
-                </div>
-            </div>
-    
-            <div class="product-card">
-                <img src="https://source.unsplash.com/600x800/?women,jeans,vintage" alt="High‑Waisted Jeans (Women)">
-                <div class="info">
-                    <h3>High‑Waisted Jeans (Women)</h3>
-                    <p class="price">₹699</p>
-                    <button class="btn" onclick="addToCart('womens-jeans','High‑Waisted Jeans (Women)','₹699','https://source.unsplash.com/600x800/?women,jeans,vintage')">Add to Cart</button>
-                    <a class="btn" href="womens-jeans.html" style="margin-left:5px;">Details</a>
-                </div>
-            </div>
-    
-        </div>
-    </section>
+    <div class="product">
+      <img src="images/mens-denim-jacket.jpg" alt="Men’s Denim Jacket">
+      <h3>Men’s Denim Jacket</h3>
+      <p class="price">Rs. 799</p>
+      <button>Add to Cart</button>
+    </div>
 
-<footer>
-    <p>&copy; 2025 Get Set Wear. Wear Better, Live Better.</p>
-</footer>
+    <div class="product">
+      <img src="images/mens-graphic-tee.jpg" alt="Men’s Graphic Tee">
+      <h3>Men’s Graphic Tee</h3>
+      <p class="price">Rs. 349</p>
+      <button>Add to Cart</button>
+    </div>
 
+    <div class="product">
+      <img src="images/womens-denim-jacket.jpg" alt="Women’s Denim Jacket">
+      <h3>Women’s Denim Jacket</h3>
+      <p class="price">Rs. 749</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="images/womens-jeans.jpg" alt="Women’s Jeans">
+      <h3>Women’s Jeans</h3>
+      <p class="price">Rs. 499</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="images/womens-floral-dress.jpg" alt="Women’s Floral Dress">
+      <h3>Women’s Floral Dress</h3>
+      <p class="price">Rs. 699</p>
+      <button>Add to Cart</button>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Get Set Wear</p>
+  </footer>
 </body>
 </html>
+
+
+        
